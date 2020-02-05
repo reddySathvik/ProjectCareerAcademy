@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_screen"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_10">
+
+
+    <TextView
+        android:id="@+id/tvCourseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Nsme"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivCourse"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/course_placeholder" />
+
+        <ImageView
+            android:id="@+id/ivFav"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/margin_10"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/unfavourite_icon" />
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Career Academy</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="resend"><u>Resend</u></string>
+    <string name="network_error">Could not connect at the movement make sure your mobile has Internet connection, please  try again later</string>
+    <string name="more_reviews"><u>More reviews</u></string>
+    <string name="more_photos"><u>View More</u></string>
+    <string name="more_videos"><u>View More</u></string>
+    <string name="pick_image_intent_text">Choose an image</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="about_us_desc">We help you to learn your favourite courses with less price.</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <array name="year">
+        <item>YEAR</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </array>
+    <array name="months">
+        <item>MONTH</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </array>
+    <array name="courses">
+        <item>JAVA</item>
+        <item>JAVA</item>
+        <item>JAVA</item>
+        <item>JAVA</item>
+    </array>
+    <string name="select_option">Select an option</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="take_photo">Take Photo</string>
+
+</resources>

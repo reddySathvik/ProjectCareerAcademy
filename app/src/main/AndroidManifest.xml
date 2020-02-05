@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.careeracademy">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus"
+                  android:required="false" />
+    <uses-feature android:name="android.hardware.camera"
+                  android:required="false" />
+    <uses-feature android:name="CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:name=".CareerApplication"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.RegistrationActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.CoursesListActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.CourseDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.TutorCourseDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.CourseDocListActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.MyProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.AddCourseActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.EnrollCourseActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.FavouriteCoursesListActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.EnrolledCoursesListActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.ChatHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.NewChatActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.AboutUsActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

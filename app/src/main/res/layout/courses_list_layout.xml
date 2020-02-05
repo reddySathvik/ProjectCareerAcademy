@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_screen"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_10">
+
+        <FrameLayout
+            android:id="@+id/flSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etSearchCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_bg"
+                android:hint="Search Course"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:padding="@dimen/margin_10"
+                android:textColor="@color/bg_screen" />
+
+            <ImageView
+                android:id="@+id/ivSearchCourse"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="end|center"
+                android:src="@android:drawable/ic_search_category_default" />
+        </FrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCourseList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_10"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvNoCoursesFound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="No Courses Found"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivAddCourse"
+        android:layout_width="@dimen/margin_60"
+        android:layout_height="@dimen/margin_60"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/margin_50"
+        android:src="@drawable/add_course_icon" />
+</FrameLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_10">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:src="@drawable/app_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/margin_20"
+        android:paddingEnd="@dimen/margin_20">
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:hint="First Name"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:padding="@dimen/margin_10"
+            android:textColor="@color/bg_screen"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:hint="Last Name"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:padding="@dimen/margin_10"
+            android:textColor="@color/bg_screen"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/margin_10"
+            android:textColor="@color/bg_screen"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center"
+            android:hint="Password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:padding="@dimen/margin_10"
+            android:textColor="@color/bg_screen"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgUserType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_40"
+            android:background="@drawable/edit_text_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_5"
+            android:paddingRight="@dimen/margin_5">
+
+            <RadioButton
+                android:id="@+id/cbUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="USER"
+                android:textColor="@color/bg_screen"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/cbTutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TUTOR"
+                android:textColor="@color/bg_screen"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_bg"
+            android:paddingStart="@dimen/margin_40"
+            android:paddingTop="@dimen/margin_10"
+            android:paddingEnd="@dimen/margin_40"
+            android:paddingBottom="@dimen/margin_10"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>

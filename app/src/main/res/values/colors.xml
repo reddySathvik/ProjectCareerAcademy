@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#FFC3CE</color>-->
+    <color name="colorPrimary">#061822</color>
+    <color name="colorPrimaryDark">#061822</color>
+    <color name="colorAccent">#282CB2</color>
+    <color name="colorgray">#88757575</color>
+    <color name="white">#ffffff</color>
+    <color name="body_bg_color">#F0F0F0</color>
+    <color name="black">#000000</color>
+    <color name="dark_gray">#5D6376</color>
+    <color name="colorlightgray">#c7c7c7</color>
+    <color name="light_gray">#F7F4F4</color>
+    <color name="rating_bg">#F4F4F4</color>
+    <color name="rating_text_color">#777777</color>
+    <color name="rating_no_color">#B1ACAC</color>
+    <color name="review_bg">#F7F7F7</color>
+    <color name="review_name_color">#6C6C6C</color>
+    <color name="review_desc_color">#A2A2A2</color>
+    <color name="gray">#EDEDED</color>
+    <color name="edit_text_bg">#F4F4F4</color>
+    <color name="city_text_color">#878585</color>
+    <color name="green">#43E249</color>
+    <color name="dark_green">#689F38</color>
+    <color name="gray_new">#BFC1C5</color>
+
+    <color name="text_hint_color">#BDC1D0</color>
+    <color name="profile_text_color">#5D6376</color>
+    <color name="lightpink">#FFC3CE</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen">#061822</color>
+    <color name="btn_bg_color">#084280</color>
+    <color name="blue_color">#282CB2</color>
+
+</resources>

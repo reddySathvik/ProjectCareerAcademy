@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_text_bg"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/margin_5"
+    android:paddingBottom="@dimen/margin_10"
+    android:paddingTop="@dimen/margin_10">
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:text="User Name"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:textColor="@color/bg_screen" />
+
+    <TextView
+        android:id="@+id/tvUserType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Type"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:textColor="@color/gray_new" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@color/bg_screen" />
+</LinearLayout>

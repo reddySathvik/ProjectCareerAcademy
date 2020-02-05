@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llDrawerLayoutPrent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_20"
+    android:background="@color/bg_screen"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvMyProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_10"
+        android:text="My Profile"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvEnrolledCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:drawablePadding="@dimen/margin_10"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_10"
+        android:text="Course Enrolled"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tvFavourites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:drawablePadding="@dimen/margin_10"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_10"
+        android:text="Favourites"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/tvChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:drawablePadding="@dimen/margin_10"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_10"
+        android:text="Chat"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tvLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:drawablePadding="@dimen/margin_10"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_10"
+        android:text="Logout"
+        android:textColor="@color/white" />
+
+</LinearLayout>

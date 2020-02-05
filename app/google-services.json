@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1069040147857",
+    "firebase_url": "https://career-academy-75a9d.firebaseio.com",
+    "project_id": "career-academy-75a9d",
+    "storage_bucket": "career-academy-75a9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069040147857:android:8bd12b7ccedb5dc7020e30",
+        "android_client_info": {
+          "package_name": "com.android.careeracademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069040147857-0fq95on920h16juosvjj7k9895q0o974.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIGtBqioq01lGV5z0Z1A8-HfMcvLA0gLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069040147857-0fq95on920h16juosvjj7k9895q0o974.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
